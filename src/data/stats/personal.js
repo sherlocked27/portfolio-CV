@@ -29,6 +29,21 @@ const data = [
     label: 'Current city',
     value: 'Jaipur, India',
   },
+  {
+    key: 'shows',
+    label: 'TV Shows Watched',
+    value: <a href = "https://www.tvtime.com/en/user/9852367/profile">50</a>,
+  },
+  {
+    key: 'hero',
+    label: 'Favorite Superhero',
+    value: 'Dr. Strange',
+  },
+  {
+    key: 'book',
+    label: 'Favorite Book',
+    value: 'Sapiens: A Brief History of Humankind',
+  },
 ];
 
 export default data;

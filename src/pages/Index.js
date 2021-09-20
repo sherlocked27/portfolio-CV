@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
+import Hello from '../components/Contact/Hello';
 
 const Index = () => (
   <Main
@@ -11,7 +12,7 @@ const Index = () => (
     <article className="post" id="index">
       <header>
         <div className="title">
-          <h2 data-testid="heading"><Link to="/">Namaste! Welcome to my Website</Link></h2>
+          <h2 data-testid="heading"><Link to="/"><Hello />! Welcome to my Website</Link></h2>
           <p>
             A beautiful, responsive, statically-generated,
             react application written with modern Javascript.
@@ -25,7 +26,7 @@ const Index = () => (
         view <Link to="/stats">site statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
+      <p> Source available <a href="https://github.com/sherlocked27/portfolio-CV">here</a>.</p>
     </article>
   </Main>
 );

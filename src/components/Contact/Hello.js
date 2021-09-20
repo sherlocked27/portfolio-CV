@@ -9,21 +9,10 @@ const validateText = (text) => {
 };
 
 const messages = [
-  'hi',
-  'hello',
-  'hola',
-  'you-can-email-me-at-literally-anything! Really',
-  'well, not anything. But most things',
-  'like-this',
-  'or-this',
-  'but not this :(  ',
-  'you.can.also.email.me.with.specific.topics.like',
-  'just-saying-hi',
-  'please-work-for-us',
-  'help',
-  'admin',
-  'or-I-really-like-your-website',
-  'thanks',
+  'Hi',
+  'Hello',
+  'Hola',
+  'Namaste',
 ];
 
 const useInterval = (callback, delay) => {
@@ -44,7 +33,7 @@ const useInterval = (callback, delay) => {
   }, [delay]);
 };
 
-const EmailLink = () => {
+const Hello = () => {
   const hold = 50; // ticks to wait after message is complete before rendering next message
   const delay = 50; // tick length in mS
 
@@ -69,19 +58,8 @@ const EmailLink = () => {
     }
   }, isActive ? delay : null);
 
-  return (
-    <div
-      className="inline-container"
-      style={validateText(message) ? {} : { color: 'red' }}
-      onMouseEnter={() => setIsActive(false)}
-      onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
-    >
-      <a href={validateText(message) ? `mailto:rishibajargan@gmail.com` : ''}>
-        <span>{message}</span>
-        <span>@rishibajargan</span>
-      </a>
-    </div>
+  return (<span>{message}</span>
   );
 };
 
-export default EmailLink;
+export default Hello;
