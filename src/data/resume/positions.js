@@ -16,7 +16,7 @@ const positions = [
     daterange: 'January 2020 - March 2021',
     points: [
       'Instrumental in developing Domain Agnostic Search Engine and Chatbot with Reading Comprehension Based Q&A, Answer Validation, Paraphrase Detection, Section Extraction service and Elasticsearch based storage mechanism',
-      'Developed an automated merchandiser multipack bundle recommendation system to Elevate Customer Experiences.',
+      'Developed an automated merchandiser multipack bundle recommendation system to Elevate Customer Experiences, multipack comprises of 15% sales within 6 months.',
     ],
   },
   {
@@ -25,9 +25,8 @@ const positions = [
     link: 'https://www.publicissapient.com/',
     daterange: 'July 2019 - Dec 2019',
     points: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM’s, and other techniques.',
+      'Developed front-end for financial assistance to gather all banks data to present a unified interface using ReactJS and redux.',
+      'Worked as trainee full-stack developer for developing distributed event notification system, having tech stack Spring Boot, Apache Kafka and Kafka Streams, ELK Stack, MongoDB, Docker and AWS for microservices, ReactJS for UI and Jenkins and Git for the build for 3 months.',
     ],
   },
   {
