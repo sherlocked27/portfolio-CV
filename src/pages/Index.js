@@ -14,13 +14,11 @@ const Index = () => (
         <div className="title">
           <h2 data-testid="heading"><Link to="/"><Hello />! Welcome to my Website</Link></h2>
           <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
+            Data is everywhere and Data is <a href = "https://informationisbeautiful.net/">beautiful</a> .
           </p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
+      <p> Welcome to my website. You can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
         view <Link to="/stats">site statistics</Link>, {' '}
