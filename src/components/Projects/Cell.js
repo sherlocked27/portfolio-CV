@@ -2,17 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import dayjs from 'dayjs';
 
-fetch('https://q3d0rlossg.execute-api.us-east-1.amazonaws.com/default/invoiceContainer', {
-  method: 'POST',
-  headers: {
-            'x-api-key': '4KQfn4znnK8caRlTklZrFcUNNJvB6oFuWFKF4dh0',
-            'Content-Type': 'text/plain'
-        },
-  body: JSON.stringify({
-    firstParam: 'yourValue'
-  })
-})
-
 const Cell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
