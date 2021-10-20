@@ -32,12 +32,12 @@ const data = [
   {
     key: 'shows',
     label: 'TV Shows Watched',
-    value: <a href = "https://www.tvtime.com/en/user/9852367/profile">50</a>,
+    value: <a href = "https://www.tvtime.com/en/user/9852367/profile">51</a>,
   },
   {
     key: 'hero',
     label: 'Favorite Superhero',
-    value: 'Dr. Strange',
+    value: 'Dr. Strange (Benedict!)',
   },
   {
     key: 'book',
