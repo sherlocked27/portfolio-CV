@@ -20,8 +20,8 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Rishi. I love building models.
-        I am a <a href="https://icme.stanford.edu/">BITS Pilani</a> graduate and
-        curently working at <a href="https://arthena.com">Publicis Sapient</a> as a Senior Data Scientist.
+        I am a <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a> graduate and
+        curently working at <a href="https://publicissapient.com">Publicis Sapient</a> as a Senior Associate Data Scientist.
       </p>
       <ul className="actions">
         <li>
@@ -32,7 +32,7 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">&copy; Rishi Bajargan<Link to="/">mldangelo.com</Link>.</p>
+      <p className="copyright">&copy; Rishi Bajargan.</p>
     </section>
   </section>
 );
