@@ -21,7 +21,7 @@ const Index = () => (
       <p> Welcome to my website. You can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
+        view <Link to="/stats">some statistics</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
       </p>
       <p> Source available <a href="https://github.com/sherlocked27/portfolio-CV">here</a>.</p>
