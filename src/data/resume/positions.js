@@ -5,7 +5,7 @@ const positions = [
     link: 'https://www.publicissapient.com/',
     daterange: 'April 2021 - Present',
     points: [
-      'Developed a Topic Based Abstractive Summarizer to generate Short(3-6 lines)/Long(12-15) summaries for banking documents by taking relevant and salient information with respect to the topic provided',
+      ' Developed a robust topic based text summarization pipeline to generate Short(3-6 lines)/Long(12-15) summaries for banking documents using semantic density based topic filtering and BART. Also implemented a novel, unsupervised evaluation metric for the text summarization task using masked language modelling to eliminate the need for reference (human) summaries for evaluation having Rouge2 score 25.4. ',
       'Constructed a Confluence NLP Bot that automatcally indexes and help search the AI division confluence pages, using cognitive search.',
     ],
   },
@@ -15,8 +15,12 @@ const positions = [
     link: 'https://www.publicissapient.com/',
     daterange: 'January 2020 - March 2021',
     points: [
-      'Instrumental in developing Domain Agnostic Search Engine and Chatbot with Reading Comprehension Based Q&A, Answer Validation, Paraphrase Detection, Section Extraction service and Elasticsearch based storage mechanism',
-      'Developed an automated merchandiser multipack bundle recommendation system to Elevate Customer Experiences, multipack comprises of 15% sales within 6 months.',
+      'NLP researcher working on the KaaS (Knowledge as a Service) platform by Publicis Sapient. KaaS was recognised as a runner up in the best innovation in NLP category at the AIconics Awards (San Francisco) 2019.',
+'Handled several NLP use cases like cognitive search, open domain QA, automated document tagging, NER, text summarisation etc along with scalable, production ready, FastAPI based dockerised micro-services for the KaaS NLP platform',
+'Owned the end-to-end research development of Quention-Answering model trained on Squad2.0 Dataset for Cognitive Search Platform, resulted in 12% search result accuracy.',
+' Designed and developed the Document Insight Platform to get diffrent NLP insight out of any text document and Video. ',
+      'Developed an automated merchandiser multipack bundle recommendation system to Elevate Customer Experiences, multipack comprises of 40% sales within 6 months. ',
+      ' We have established a highly effective and disciplined ML development framework to create items/product bundles based on customer segmentation. This helped them to target the right customer and recommend most likely item/ product bundle.'
     ],
   },
   {
