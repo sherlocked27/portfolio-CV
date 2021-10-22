@@ -29,7 +29,7 @@ const skills = [
   },
   {
     title: 'ElasticSearch',
-    competency: 4,
+    competency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -64,7 +64,17 @@ const skills = [
   },
   {
     title: 'Tensorflow + Keras',
-    competency: 3,
+    competency: 4,
+    category: ['Data Science', 'Python'],
+  },
+  {
+    title: 'Transformers',
+    competency: 4,
+    category: ['Data Science', 'Python'],
+  },
+  {
+    title: 'LSTM, RNN',
+    competency: 4,
     category: ['Data Science', 'Python'],
   },
   {
