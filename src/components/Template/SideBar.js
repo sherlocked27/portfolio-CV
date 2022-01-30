@@ -21,7 +21,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>Hi, I&apos;m Rishi. 
         I am a <a href="https://www.bits-pilani.ac.in/">BITS Pilani</a> graduate and
-        currently working at <a href="https://publicissapient.com">Publicis Sapient</a> as a Senior Associate Data Scientist. Mesmerized by the beauty of Transformer models in various tasks, it's just winsome!
+        currently working at <a href="https://www.agoda.com/">Agoda</a> as Data Scientist. Mesmerized by the beauty of Transformer models in various tasks, it's just winsome!
       </p>
       <ul className="actions">
         <li>
